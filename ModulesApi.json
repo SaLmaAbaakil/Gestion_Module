@@ -1,0 +1,400 @@
+{
+  "modules": [
+    {
+      "code": "M101_F01",
+      "intitule": "M101",
+      "masseHoraire": 85,
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Analyse de données",
+      "id": "1"
+    },
+    {
+      "code": "M102_F01",
+      "intitule": "M102",
+      "masseHoraire": 50,
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Programmation en C, Structures de données",
+      "id": "2"
+    },
+    {
+      "id": "4",
+      "code": "M104_F01",
+      "intitule": "M104",
+      "masseHoraire": 70,
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Bases de données SQL, Conception de schémas"
+    },
+    {
+      "id": "5",
+      "code": "M105_F01",
+      "intitule": "M105",
+      "masseHoraire": 90,
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Programmation en JavaScript, DOM manipulation"
+    },
+    {
+      "id": "6",
+      "code": "M106_F01",
+      "intitule": "M106",
+      "masseHoraire": 100,
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Introduction au web, HTML/CSS"
+    },
+    {
+      "id": "7",
+      "code": "M107_F01",
+      "intitule": "M107",
+      "masseHoraire": 40,
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Réseaux de base, Modèle OSI"
+    },
+    {
+      "id": "8",
+      "code": "M108_F01",
+      "intitule": "M108",
+      "masseHoraire": 60,
+      "filiere": "Digital",
+      "niveau": "2A",
+      "competences": "Sécurité informatique, Cryptographie"
+    },
+    {
+      "id": "9",
+      "code": "M109_F01",
+      "intitule": "M109",
+      "masseHoraire": 55,
+      "filiere": "Digital",
+      "niveau": "2A",
+      "competences": "Design UX/UI, Prototypage"
+    },
+    {
+      "id": "10",
+      "code": "M110_F01",
+      "intitule": "M110",
+      "masseHoraire": 45,
+      "filiere": "Digital",
+      "niveau": "2A",
+      "competences": "Introduction à l'intelligence artificielle, Machine learning"
+    },
+    {
+      "id": "11",
+      "code": "M111_F01",
+      "intitule": "M111",
+      "masseHoraire": 30,
+      "filiere": "Digital",
+      "niveau": "2A",
+      "competences": "Gestion de projet, Méthodes agiles"
+    },
+    {
+      "id": "12",
+      "code": "M112_F01",
+      "intitule": "M112",
+      "masseHoraire": 65,
+      "filiere": "Digital",
+      "niveau": "2A",
+      "competences": "Systèmes embarqués, Microcontrôleurs"
+    },
+    {
+      "id": "13",
+      "code": "M113_F01",
+      "intitule": "M113",
+      "masseHoraire": 75,
+      "filiere": "Digital",
+      "niveau": "2A",
+      "competences": "Programmation en Python, Scripts automatiques"
+    },
+    {
+      "id": "14",
+      "code": "M114_F01",
+      "intitule": "M114",
+      "masseHoraire": 80,
+      "filiere": "Digital",
+      "niveau": "2A",
+      "competences": "Calculs avancés, Mathématiques appliquées"
+    },
+    {
+      "id": "15",
+      "code": "M115_F01",
+      "intitule": "M115",
+      "masseHoraire": 95,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Architecture des ordinateurs, Organisation mémoire"
+    },
+    {
+      "id": "16",
+      "code": "M115_F02",
+      "intitule": "M115",
+      "masseHoraire": 100,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Introduction à la gestion financière, Concepts de comptabilité"
+    },
+    {
+      "id": "17",
+      "code": "M115_F03",
+      "intitule": "M115",
+      "masseHoraire": 90,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Analyse financière de base, Prévisions financières"
+    },
+    {
+      "id": "21",
+      "code": "M115_F07",
+      "intitule": "M115",
+      "masseHoraire": 105,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Investissements immobiliers, Financement d'entreprise"
+    },
+    {
+      "id": "22",
+      "code": "M115_F08",
+      "intitule": "M115",
+      "masseHoraire": 95,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Planification financière, Gestion des flux de trésorerie"
+    },
+    {
+      "id": "23",
+      "code": "M115_F09",
+      "intitule": "M115",
+      "masseHoraire": 100,
+      "filiere": "Finance",
+      "niveau": "2A",
+      "competences": "Évaluation des entreprises, Analyse des investissements"
+    },
+    {
+      "id": "24",
+      "code": "M115_F10",
+      "intitule": "M115",
+      "masseHoraire": 90,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Financement international, Stratégies de diversification"
+    },
+    {
+      "id": "25",
+      "code": "M115_F11",
+      "intitule": "M115",
+      "masseHoraire": 110,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Marchés de capitaux, Instruments financiers dérivés"
+    },
+    {
+      "id": "26",
+      "code": "M115_F12",
+      "intitule": "M115",
+      "masseHoraire": 105,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Analyse de la rentabilité des projets, Gestion des coûts"
+    },
+    {
+      "id": "27",
+      "code": "M115_F13",
+      "intitule": "M115",
+      "masseHoraire": 115,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Modélisation financière avancée, Techniques de gestion des risques"
+    },
+    {
+      "id": "28",
+      "code": "M115_F14",
+      "intitule": "M115",
+      "masseHoraire": 120,
+      "filiere": "Finance",
+      "niveau": "1A",
+      "competences": "Évaluation des actifs, Analyse quantitative des risques"
+    },
+    {
+      "id": "29",
+      "code": "M115_F15",
+      "intitule": "M115",
+      "masseHoraire": 130,
+      "filiere": "Finance",
+      "niveau": "2A",
+      "competences": "Stratégies de financement, Gestion des fusions et acquisitions"
+    },
+    {
+      "id": "32",
+      "code": "M115_F18",
+      "intitule": "M115",
+      "masseHoraire": 115,
+      "filiere": "Finance",
+      "niveau": "2A",
+      "competences": "Analyse financière internationale, Marchés émergents"
+    },
+    {
+      "id": "33",
+      "code": "M115_F19",
+      "intitule": "M115",
+      "masseHoraire": 120,
+      "filiere": "Finance",
+      "niveau": "2A",
+      "competences": "Gestion des risques systémiques, Planification stratégique"
+    },
+    {
+      "code": "M115_F20",
+      "intitule": "M115",
+      "masseHoraire": 125,
+      "filiere": "Finance",
+      "niveau": "2A",
+      "competences": "Analyse des marchés financiers",
+      "id": "34"
+    },
+    {
+      "id": "36",
+      "code": "M117_F20",
+      "intitule": "M117",
+      "masseHoraire": 135,
+      "filiere": "Marketing",
+      "niveau": "1A",
+      "competences": "Gest Comportement du consommateur, Marketing de contenu, Publicité en ligne"
+    },
+    {
+      "id": "37",
+      "code": "M118_F20",
+      "intitule": "M118",
+      "masseHoraire": 140,
+      "filiere": "Marketing",
+      "niveau": "1A",
+      "competences": " Marketing de contenu, Publicité en ligne, SEO et SEM"
+    },
+    {
+      "id": "38",
+      "code": "M119_F20",
+      "intitule": "M119",
+      "masseHoraire": 145,
+      "filiere": "Marketing",
+      "niveau": "1A",
+      "competences": " Publicité en ligne, SEO et SEM, Analyse des données marketing"
+    },
+    {
+      "id": "39",
+      "code": "M120_F20",
+      "intitule": "M120",
+      "masseHoraire": 150,
+      "filiere": "Marketing",
+      "niveau": "1A",
+      "competences": "SEO et SEM, Analyse des données marketing, Gestion de la marque"
+    },
+    {
+      "id": "40",
+      "code": "M121_F20",
+      "intitule": "M121",
+      "masseHoraire": 155,
+      "filiere": "Marketing",
+      "niveau": "1A",
+      "competences": "Analyse des données marketing, Gestion de la marque, Marketing relationnel"
+    },
+    {
+      "id": "41",
+      "code": "M122_F20",
+      "intitule": "M122",
+      "masseHoraire": 160,
+      "filiere": "Marketing",
+      "niveau": "1A",
+      "competences": "Analyse des marchés financiers,  Stratégies de fidélisation"
+    },
+    {
+      "id": "42",
+      "code": "M123_F20",
+      "intitule": "M123",
+      "masseHoraire": 165,
+      "filiere": "Marketing",
+      "niveau": "1A",
+      "competences": "Branding, Gest Comportement du consommateur, Marketing de contenu"
+    },
+    {
+      "id": "43",
+      "code": "M124_F20",
+      "intitule": "M124",
+      "masseHoraire": 170,
+      "filiere": "Marketing",
+      "niveau": "2A",
+      "competences": " SEO et SEM, Analyse des données marketing, Gestion de la marque"
+    },
+    {
+      "id": "44",
+      "code": "M125_F20",
+      "intitule": "M125",
+      "masseHoraire": 175,
+      "filiere": "Marketing",
+      "niveau": "2A",
+      "competences": "Marketing relationnel, Stratégies de fidélisation, Branding"
+    },
+    {
+      "id": "45",
+      "code": "M126_F20",
+      "intitule": "M126",
+      "masseHoraire": 180,
+      "filiere": "Marketing",
+      "niveau": "2A",
+      "competences": "Analyse des marchés financier, Marketing relationnel"
+    },
+    {
+      "id": "46",
+      "code": "M127_F20",
+      "intitule": "M127",
+      "masseHoraire": 185,
+      "filiere": "Marketing",
+      "niveau": "2A",
+      "competences": " Comportement du consommateur, Marketing de contenu, Publicité en ligne"
+    },
+    {
+      "id": "47",
+      "code": "M128_F20",
+      "intitule": "M128",
+      "masseHoraire": 190,
+      "filiere": "Marketing",
+      "niveau": "2A",
+      "competences": "Publicité traditionnelle, Études de marché"
+    },
+    {
+      "id": "48",
+      "code": "M129_F20",
+      "intitule": "M129",
+      "masseHoraire": 195,
+      "filiere": "Marketing",
+      "niveau": "2A",
+      "competences": " Stratégies de fidélisation,Études de marché, Marketing d'influence"
+    },
+    {
+      "id": 49,
+      "code": "S110",
+      "intitule": "110",
+      "masseHoraire": "110",
+      "filiere": "Finance",
+      "niveau": "2A",
+      "competences": "Programmation en C, Structures de données"
+    },
+    {
+      "id": 50,
+      "code": "555",
+      "intitule": "110",
+      "masseHoraire": "110",
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Programmation en C"
+    },
+    {
+      "id": 51,
+      "code": "222",
+      "intitule": "110",
+      "masseHoraire": "110",
+      "filiere": "Digital",
+      "niveau": "1A",
+      "competences": "Programmation en C, Structures de donnée"
+    }
+  ]
+}
