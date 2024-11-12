@@ -8,7 +8,7 @@ function ModuleList() {
   const dispatch = useDispatch();
   const modules = useSelector((state) => state.modules.list);
   const status = useSelector((state) => state.modules.status);
-  const [filterFiliere, setFilterFiliere] = useState('Digital');
+  const [filterSecteur, setfilterSecteur] = useState('Digital');
   const [filterNiveau, setFilterNiveau] = useState('1A');
   const [searchTerm, setSearchTerm] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,7 +19,9 @@ function ModuleList() {
     masseHoraire:'',
     filiere:'',
     niveau:'',
-    competences:''
+    competences:'',
+    secteur:'',
+    formateur:''
   });
 
   useEffect(() => {
@@ -28,7 +30,7 @@ function ModuleList() {
 
   const filteredModules = modules
     .filter((module) =>
-      module.filiere === filterFiliere &&
+      module.secteur === filterSecteur &&
       module.niveau === filterNiveau &&
       (module.code.toLowerCase().includes(searchTerm.toLowerCase()) ||
        module.intitule.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -47,7 +49,9 @@ function ModuleList() {
       masseHoraire: module.masseHoraire,
       filiere: module.filiere,
       niveau: module.niveau,
-      competences: module.competences
+      competences: module.competences,
+      secteur: module.secteur,
+      formateur: module.formateur
     });
     setIsModalOpen(true);
   };
@@ -60,7 +64,9 @@ function ModuleList() {
       masseHoraire:'',
       filiere:'',
       niveau:'',
-      competences:''
+      competences:'',
+      secteur:'',
+      formateur:''
     })
     setEditingModuleId(null);
   };
@@ -70,15 +76,17 @@ function ModuleList() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const etat = formData.formateur && formData.secteur ? 'Affecté' : 'non Affecté'; 
     if (editingModuleId) {
-      const updatedModule = { ...formData, id: editingModuleId };
+      const updatedModule = { ...formData, id: editingModuleId , etat};
       dispatch(updateModule(updatedModule));
     } else {
       const newId = modules.length > 0 ? Math.max(...modules.map(mod => mod.id)) + 1 : 1;
       const newModule = { 
         ...formData, 
         id: newId, 
-        competences: formData.competences.toString() 
+        competences: formData.competences.toString() ,
+        etat
       };    
       dispatch(addModule(newModule));
 
@@ -141,7 +149,7 @@ function ModuleList() {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
-          <select value={filterFiliere} onChange={(e) => setFilterFiliere(e.target.value)} className="block w-full px-3 py-2 border rounded-lg">
+          <select value={filterSecteur} onChange={(e) => setfilterSecteur(e.target.value)} className="block w-full px-3 py-2 border rounded-lg">
             <option value="Digital">Digital</option>
             <option value="Finance">Finance</option>
             <option value="Marketing">Marketing</option>
@@ -164,6 +172,7 @@ function ModuleList() {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Filière</th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Niveau</th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Compétences</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Etat</th>
               <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
             </tr>
           </thead>
@@ -176,6 +185,14 @@ function ModuleList() {
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500" onChange={handleChange}>{module.filiere}</td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500" onChange={handleChange}>{module.niveau}</td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500" onChange={handleChange}>{module.competences}</td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm">
+                <div
+                  className={`${
+                    module.etat === 'Affecté' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'
+                  } inline-block px-2 py-1 rounded`}>
+                  {module.etat}
+                </div>
+              </td>
                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                   <button className="text-indigo-600 hover:text-indigo-900 mr-3" onClick={() => handleEditModule(module)} >
                     <Pencil className="w-4 h-4 mr-1" />
@@ -205,8 +222,7 @@ function ModuleList() {
               value={formData.code}
               onChange={handleChange}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"
-              required
-            />
+              required/>
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Intitulé Module</label>
@@ -216,8 +232,7 @@ function ModuleList() {
               value={formData.intitule}
               onChange={handleChange}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"
-              required
-            />
+              required/>
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Masse Horaire</label>
@@ -227,14 +242,23 @@ function ModuleList() {
               value={formData.masseHoraire}
               onChange={handleChange}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"
-              required
+              required/>
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Filiere</label>
+            <input
+              type="text"
+              name="filiere"
+              value={formData.filiere}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Filière</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Secteur</label>
             <select
-              name="filiere"
-              value={formData.filiere}
+              name="secteur"
+              value={formData.secteur}
               onChange={handleChange}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"
               required>
@@ -265,6 +289,15 @@ function ModuleList() {
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"
               placeholder="Separate with commas"
               required/>
+          </div><div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Formateur</label>
+            <input
+              type="text"
+              name="formateur"
+              value={formData.formateur}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"
+              />
           </div>
           <div className="flex justify-end space-x-3 mt-6">
             <button

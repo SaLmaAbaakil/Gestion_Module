@@ -18,11 +18,20 @@ export const addModule = createAsyncThunk('modules/addModule', async (newModule)
 });
 
 export const deleteModule = createAsyncThunk('modules/deleteModule', async (id) => {
-    await fetch(`http://localhost:5000/modules/${id}`, {
+    const response = await fetch(`http://localhost:5000/modules/${id}`, {
         method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+        },
     });
+
+    if (!response.ok) {
+        throw new Error(`Failed to delete module with id: ${id}`);
+    }
+
     return id;
 });
+
 
 export const updateModule = createAsyncThunk('modules/updateModule', async (updatedModule) => {
     const response = await fetch(`http://localhost:5000/modules/${updatedModule.id}`, {
