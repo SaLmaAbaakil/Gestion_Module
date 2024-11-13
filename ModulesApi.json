@@ -103,7 +103,7 @@
       "masseHoraire": 45,
       "filiere": "Intelligence Artificielle",
       "niveau": "2A",
-      "competences": "Introduction à l'intelligence artificielle, Machine learning",
+      "competences": "Introduction à l'intelligence artificielle",
       "etat": "Affecté",
       "secteur": "Digital",
       "formateur": "Louis Petit"
@@ -175,7 +175,7 @@
       "masseHoraire": 100,
       "filiere": "Gestion Financière",
       "niveau": "1A",
-      "competences": "Introduction à la gestion financière, Concepts de comptabilité",
+      "competences": "Introduction à la gestion financière",
       "etat": "Affecté",
       "secteur": "Finance",
       "formateur": "Marc Durand"
@@ -199,7 +199,7 @@
       "masseHoraire": 105,
       "filiere": "Investissement",
       "niveau": "1A",
-      "competences": "Investissements immobiliers, Financement d'entreprise",
+      "competences": "Investissements immobiliers",
       "etat": "Affecté",
       "secteur": "Finance",
       "formateur": "Luc Bernard"
@@ -211,7 +211,7 @@
       "masseHoraire": 95,
       "filiere": "Gestion de Trésorerie",
       "niveau": "1A",
-      "competences": "Planification financière, Gestion des flux de trésorerie",
+      "competences": "Planification financière",
       "etat": "Affecté",
       "secteur": "Finance",
       "formateur": "Nathalie Moreau"
@@ -247,7 +247,7 @@
       "masseHoraire": 115,
       "filiere": "Modélisation Financière",
       "niveau": "1A",
-      "competences": "Modélisation financière avancée, Techniques de gestion des risques",
+      "competences": "Modélisation financière avancée",
       "etat": "Affecté",
       "secteur": "Finance",
       "formateur": "Thomas Leroy"
@@ -271,7 +271,7 @@
       "masseHoraire": 130,
       "filiere": "Stratégies de Financement",
       "niveau": "2A",
-      "competences": "Stratégies de financement, Gestion des fusions et acquisitions",
+      "competences": "Gestion des fusions et acquisitions",
       "etat": "Affecté",
       "secteur": "Finance",
       "formateur": "Gabriel Morel"
@@ -295,7 +295,7 @@
       "masseHoraire": 120,
       "filiere": "Gestion des Risques",
       "niveau": "2A",
-      "competences": "Gestion des risques systémiques, Planification stratégique",
+      "competences": "Gestion des risques systémiques",
       "etat": "Affecté",
       "secteur": "Finance",
       "formateur": "Olivier Durand"
@@ -319,7 +319,7 @@
       "masseHoraire": 135,
       "filiere": "Marketing Digital",
       "niveau": "1A",
-      "competences": "Gest Comportement du consommateur, Publicité en ligne",
+      "competences": "Gest Comportement du consommateur",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -331,7 +331,7 @@
       "masseHoraire": 140,
       "filiere": "Marketing Stratégique",
       "niveau": "1A",
-      "competences": "Marketing de contenu, Publicité en ligne, SEO et SEM",
+      "competences": "Marketing de contenu, SEO et SEM",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -343,7 +343,7 @@
       "masseHoraire": 145,
       "filiere": "Marketing de Produits",
       "niveau": "1A",
-      "competences": "Publicité en ligne, SEO et SEM, Analyse des données marketing",
+      "competences": "Publicité en ligne, Analyse des données marketing",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -355,7 +355,7 @@
       "masseHoraire": 150,
       "filiere": "Marketing International",
       "niveau": "1A",
-      "competences": "SEO et SEM, Analyse des données marketing, Gestion de la marque",
+      "competences": "Analyse des données marketing, Gestion de la marque",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -391,7 +391,7 @@
       "masseHoraire": 165,
       "filiere": "Marketing Digital",
       "niveau": "1A",
-      "competences": "Branding, Gest Comportement du consommateur, Marketing de contenu",
+      "competences": "Branding, Gest Comportement du consommateur",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -403,7 +403,7 @@
       "masseHoraire": 170,
       "filiere": "Marketing International",
       "niveau": "2A",
-      "competences": "SEO et SEM, Analyse des données marketing, Gestion de la marque",
+      "competences": "SEO et SEM, Analyse des données marketing",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -415,7 +415,7 @@
       "masseHoraire": 175,
       "filiere": "Marketing Stratégique",
       "niveau": "2A",
-      "competences": "Marketing relationnel, Stratégies de fidélisation, Branding",
+      "competences": "Marketing relationnel, Stratégies de fidélisation",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -439,7 +439,7 @@
       "masseHoraire": 185,
       "filiere": "Marketing de Produits",
       "niveau": "2A",
-      "competences": "Comportement du consommateur, Marketing de contenu, Publicité en ligne",
+      "competences": "Comportement du consommateur, Marketing de contenu",
       "etat": "Affecté",
       "secteur": "Marketing",
       "formateur": "Jean Dupont"
@@ -475,7 +475,7 @@
       "masseHoraire": "120",
       "filiere": "Technologie des aliments",
       "niveau": "1A",
-      "competences": "Marketing, Transformation des aliments, Gestion de la production alimentaire",
+      "competences": "Gestion de la production alimentaire",
       "secteur": "Agro-ali",
       "formateur": "Emilie Martin",
       "etat": "Affecté"
@@ -487,7 +487,7 @@
       "masseHoraire": "100",
       "filiere": "Transformation alimentaire",
       "niveau": "1A",
-      "competences": "Transformation des produits alimentaires, Gestion de la production, Hygiène alimentaire",
+      "competences": "Transformation des produits alimentaires",
       "secteur": "Agro-ali",
       "formateur": "Léa Dupont",
       "etat": "Affecté"
@@ -499,7 +499,7 @@
       "masseHoraire": "110",
       "filiere": "Gestion de la production alimentaire",
       "niveau": "1A",
-      "competences": "Gestion de production, Optimisation des processus, Contrôle de qualité",
+      "competences": "Optimisation des processus, Contrôle de qualité",
       "secteur": "Agro-ali",
       "formateur": "Marc Robert",
       "etat": "Affecté"
@@ -511,7 +511,7 @@
       "masseHoraire": "130",
       "filiere": "Contrôle qualité alimentaire",
       "niveau": "1A",
-      "competences": "Contrôle qualité, Sécurité alimentaire, Normes ISO",
+      "competences": "Contrôle qualité, Sécurité alimentaire",
       "secteur": "Agro-ali",
       "formateur": "Sophie Dufresne",
       "etat": "Affecté"
@@ -535,7 +535,7 @@
       "masseHoraire": "120",
       "filiere": "Sécurité alimentaire",
       "niveau": "1A",
-      "competences": "Réglementation sur la sécurité alimentaire, Gestion des risques, Hygiène",
+      "competences": "Réglementation sur la sécurité alimentaire",
       "secteur": "Agro-ali",
       "formateur": "Thomas Lefevre",
       "etat": "Affecté"
@@ -547,7 +547,7 @@
       "masseHoraire": "110",
       "filiere": "Agronomie et production agricole",
       "niveau": "1A",
-      "competences": "Production agricole, Techniques agricoles, Gestion des cultures",
+      "competences": "Production agricole, Techniques agricoles",
       "secteur": "Agro-ali",
       "formateur": "Pierre Lefevre",
       "etat": "Affecté"
@@ -559,7 +559,7 @@
       "masseHoraire": "115",
       "filiere": "Logistique et chaîne du froid",
       "niveau": "1A",
-      "competences": "Gestion logistique, Chaîne du froid, Distribution des produits alimentaires",
+      "competences": "Distribution des produits alimentaires",
       "secteur": "Agro-ali",
       "formateur": "Elise Moreau",
       "etat": "Affecté"
@@ -571,7 +571,7 @@
       "masseHoraire": "125",
       "filiere": "Marketing Agro-ali",
       "niveau": "1A",
-      "competences": "Stratégies de marketing, Marketing digital, Communication Agro-ali",
+      "competences": "Stratégies de marketing, Communication Agro-ali",
       "secteur": "Agro-ali",
       "formateur": "Jean-Paul Lemoine",
       "etat": "Affecté"
@@ -583,7 +583,7 @@
       "masseHoraire": "135",
       "filiere": "Biotechnologies alimentaires",
       "niveau": "1A",
-      "competences": "Biotechnologie, Innovation dans l'Agro-ali, Techniques de production",
+      "competences": "Innovation dans l'Agro-ali, Techniques de production",
       "secteur": "Agro-ali",
       "formateur": "Laurent Boucher",
       "etat": "Affecté"
@@ -595,7 +595,7 @@
       "masseHoraire": "130",
       "filiere": "Technologie des aliments",
       "niveau": "2A",
-      "competences": "Optimisation de la production, Qualité des produits, Techniques avancées de transformation",
+      "competences": "Techniques avancées de transformation",
       "secteur": "Agro-ali",
       "formateur": "Emilie Martin",
       "etat": "Affecté"
@@ -607,7 +607,7 @@
       "masseHoraire": "120",
       "filiere": "Transformation alimentaire",
       "niveau": "2A",
-      "competences": "Procédés de transformation, Conservation des aliments, Technologies alimentaires avancées",
+      "competences": "Procédés de transformation, Conservation des aliments",
       "secteur": "Agro-ali",
       "formateur": "Léa Dupont",
       "etat": "Affecté"
@@ -619,7 +619,7 @@
       "masseHoraire": "115",
       "filiere": "Gestion de la production alimentaire",
       "niveau": "2A",
-      "competences": "Amélioration continue, Planification de la production, Gestion des ressources",
+      "competences": "Planification de la production, Gestion des ressources",
       "secteur": "Agro-ali",
       "formateur": "Marc Robert",
       "etat": "Affecté"
@@ -631,7 +631,7 @@
       "masseHoraire": "125",
       "filiere": "Contrôle qualité alimentaire",
       "niveau": "2A",
-      "competences": "Normes HACCP, Sécurité alimentaire, Tests et certifications des produits",
+      "competences": "Normes HACCP, Sécurité alimentaire",
       "secteur": "Agro-ali",
       "formateur": "Sophie Dufresne",
       "etat": "Affecté"
@@ -643,7 +643,7 @@
       "masseHoraire": "135",
       "filiere": "Nutrition et diététique",
       "niveau": "2A",
-      "competences": "Nutrition clinique, Régimes alimentaires, Prévention et bien-être",
+      "competences": "Nutrition clinique, Régimes alimentaires",
       "secteur": "Agro-ali",
       "formateur": "Chantal Durand",
       "etat": "Affecté"
@@ -655,7 +655,7 @@
       "masseHoraire": "140",
       "filiere": "Sécurité alimentaire",
       "niveau": "2A",
-      "competences": "Analyse des risques, Législation en sécurité alimentaire, Gestion des crises sanitaires",
+      "competences": "Analyse des risques, Législation en sécurité alimentaire",
       "secteur": "Agro-ali",
       "formateur": "Thomas Lefevre",
       "etat": "Affecté"
@@ -667,7 +667,7 @@
       "masseHoraire": "110",
       "filiere": "Agronomie et production agricole",
       "niveau": "2A",
-      "competences": "Agriculture durable, Cultures bio, Techniques de culture avancées",
+      "competences": "Agriculture durable,Techniques de culture avancées",
       "secteur": "Agro-ali",
       "formateur": "Pierre Lefevre",
       "etat": "Affecté"
@@ -679,7 +679,7 @@
       "masseHoraire": "120",
       "filiere": "Logistique et chaîne du froid",
       "niveau": "2A",
-      "competences": "Gestion logistique avancée, Chaîne du froid internationale, Systèmes de traçabilité",
+      "competences": "Gestion logistique avancée, Chaîne du froid internationale",
       "secteur": "Agro-ali",
       "formateur": "Elise Moreau",
       "etat": "Affecté"
@@ -691,7 +691,7 @@
       "masseHoraire": "125",
       "filiere": "Marketing Agro-ali",
       "niveau": "2A",
-      "competences": "Stratégies de vente, Marketing de produits Agro-alis, Relations clients",
+      "competences": "Stratégies de vente, Marketing de produits Agro-alis",
       "secteur": "Agro-ali",
       "formateur": "Jean-Paul Lemoine",
       "etat": "Affecté"
@@ -703,7 +703,7 @@
       "masseHoraire": "130",
       "filiere": "Biotechnologies alimentaires",
       "niveau": "2A",
-      "competences": "Biotechnologie de la fermentation, Développement de produits alimentaires innovants, Probiotiques",
+      "competences": "Biotechnologie de la fermentation, Probiotiques",
       "secteur": "Agro-ali",
       "formateur": "Laurent Boucher",
       "etat": "Affecté"
